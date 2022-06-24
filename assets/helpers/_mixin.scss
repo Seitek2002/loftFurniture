@@ -1,0 +1,11 @@
+@mixin font ($bekzat, $talgat, $valihan, $erjan) {
+    font-family: $bekzat;
+    font-size: $talgat;
+    font-weight: $valihan;
+    color: $erjan;
+}
+@mixin flex ($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
