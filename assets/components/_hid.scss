@@ -1,0 +1,83 @@
+.hid {
+    
+    height: 100vh;
+    &__card {
+        position: relative;
+        width: 266px;
+        height: 350px;
+        // height: 488px;
+        background: #fff;
+        transition: 0.5s;
+        box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.11);
+    }
+    &__card:hover {
+        height: 488px;
+    }
+    &__heart {
+        position: absolute;
+        top: 21px;
+        right: 16px;
+    }
+    &__title {
+        @include font ('Roboto', 16px, 500, $text-dark);
+
+    }
+    &__suptitle {
+        @include font ('Roboto', 11px, 400, $text-dark);
+        margin-top: 6px;
+        margin-bottom: 9px;
+    }
+    &__price {
+        @include font ('Roboto', 16px, 500, $text-dark)
+    }
+    &__product {
+        position: absolute;
+        top: 74px;
+        right: 31px;
+    }
+    &__bottom {
+        position: absolute;
+        top: 278px;
+        left: 20px;
+    }
+    &__sizes {
+        @include font ('Roboto', 12px, 400, $text-dark)
+    }
+    &__box {
+        position: relative; 
+        width: 50px;
+    }
+    &__width {
+        @include font ('Roboto', 9px, 400,#C4C4C4);
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    &__centimeter {
+        @include font ('Roboto', 9px, 400, $text-dark)
+    }
+    &__btn {
+        @include font ('Roboto', 13px, 400, $text-white);
+        width: 223px;
+        height: 40px;
+        background: $bg-blue;
+        margin-top: 17px;
+        
+    }
+    &__details {
+        position: absolute;
+        top: 359px;
+        left: 20px;
+        
+    }
+    &__x {
+        position: absolute;
+        top: 50%;
+        right: 0;
+    }
+    &__big {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+}
