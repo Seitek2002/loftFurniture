@@ -1,6 +1,14 @@
 .hid {
     
     height: 100vh;
+    &__subtitle{
+        @include font('Roboto', 400, 16px, #414141);
+    }
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
     &__card {
         position: relative;
         width: 266px;
