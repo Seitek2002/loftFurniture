@@ -45,6 +45,7 @@ button {
   transition: 0.5s;
   -webkit-box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.11);
           box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.11);
+  overflow: hidden;
 }
 
 .hid__card:hover {
@@ -55,6 +56,12 @@ button {
   position: absolute;
   top: 21px;
   right: 16px;
+}
+
+.hid__heard :hover {
+  background: red;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .hid__title {
@@ -129,6 +136,17 @@ button {
   height: 40px;
   background: #245462;
   margin-top: 17px;
+}
+
+.hid__btn:hover {
+  background: #FFFFFF;
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 400;
+  color: #245462;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: 3px solid #245462;
 }
 
 .hid__details {
