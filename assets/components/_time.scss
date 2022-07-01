@@ -1,0 +1,35 @@
+.time {
+    display: none;
+    margin: 0 auto;
+    background: url(../assets/img/time/room.svg);
+    background-size: cover;
+    max-width: 320px;
+    height: 127px;
+    &__title {
+        @include font ("Roboto", 16px, 500, $text-dark);
+        position: relative;
+        max-width: 136px;
+        margin-left: 15px;
+        padding-top: 30px;
+    }
+    &__suptitle {
+        @include font ("Roboto", 10px, 400, $text-dark);
+        position: relative;
+        margin-top: 5px;
+        max-width: 107px;
+        margin-left: 15px;
+    }
+    &__img {
+        position: absolute;
+    }
+    &__left {
+        width: 166px;
+        height: 126px;
+        background: #F4F4F4;
+    }
+}
+@media screen and (max-width:320px) {
+    .time {
+        display: block;
+    }
+}
