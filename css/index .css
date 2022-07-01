@@ -17,6 +17,10 @@ ul {
   list-style: none;
 }
 
+body {
+  font-family: "Playfair Display";
+}
+
 a {
   text-decoration: none;
 }
@@ -35,7 +39,7 @@ button {
 .footer {
   font-family: "Roboto";
   height: 234px;
-  background: #FFFFFF;
+  background: #D74444;
   box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.03);
 }
 .footer__content {
@@ -101,4 +105,4 @@ button {
   text-align: right;
   color: #414141;
   padding-top: 35px;
-}/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index .css.map */
