@@ -48,4 +48,15 @@
         color: red;
         transition: 0.3s;
     }
+    &__details-child {
+        display: flex;
+    }
+    &__right {
+        display: flex;
+        display: none;
+    }
+    &__namber {
+        @include font ('Roboto', 14px, 400, $text-dark);
+        margin-left: 10px;
+    }
 }
