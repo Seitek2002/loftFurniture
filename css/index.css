@@ -221,6 +221,7 @@ button {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 23px 40px;
+  margin-bottom: 30px;
 }
 
 .underheader__details {
@@ -404,6 +405,92 @@ button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__title {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.footer__list {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  color: #414141;
+}
+
+.footer__action {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  color: #414141;
+  margin-right: 30px;
+}
+
+.footer__item {
+  margin-right: 50px;
+}
+
+.footer__center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
+.footer__description {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  color: #414141;
+  width: 171px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: end;
+}
+
+.footer__end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__massage {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.footer__up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer__mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 20px;
+  margin-bottom: 25px;
 }
 
 @media screen and (max-width: 1070px) {

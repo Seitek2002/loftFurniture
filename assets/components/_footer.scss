@@ -1,0 +1,57 @@
+.footer {
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        @include font ('Roboto', 14px, 500, $text-black);
+    }
+
+    &__list {
+        @include font ('Roboto', 14px, 400, $text-dark);
+
+    }
+
+    &__action {
+        @include font ('Roboto', 14px, 400, $text-dark);
+        margin-right: 30px;
+    }
+
+    &__item {
+        margin-right: 50px;
+    }
+
+    &__center {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 35px;
+    }
+
+    &__description {
+        @include font ('Roboto', 14px, 400, $text-dark);
+        width: 171px;
+        display: flex;
+        text-align: end;
+    }
+
+    &__end {
+        display: flex;
+    }
+
+    &__massage {
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+
+    &__up {
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__mid {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+}
