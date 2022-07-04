@@ -15,3 +15,12 @@ const sofa__swiper = new Swiper('.sofa__swiper', {
     prevEl: '.sofa-button-prev',
   },
 });
+
+const time__swiper = new Swiper('.time__swiper', {
+  loop: true,
+
+  navigation: {
+    nextEl: '.time-button-next',
+    prevEl: '.time-button-prev',
+  },
+});

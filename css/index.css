@@ -41,7 +41,6 @@ button {
   margin: 0 auto;
   background: url(../assets/img/hero/fon.png) center no-repeat;
   background-size: cover;
-  width: 100%;
   max-width: 1140px;
   height: 450px;
 }
@@ -97,13 +96,19 @@ button {
   left: 5px;
 }
 
-.hero__line {
+.hero-button-prev {
   position: absolute;
   width: 30px;
   height: 30px;
   left: 0;
   right: 0;
   background: rgba(157, 157, 157, 0.28);
+}
+
+.hero-button-prev:hover {
+  background: #000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 768px) {
@@ -116,10 +121,8 @@ button {
   padding: 0 20px;
   display: none;
   overflow: hidden;
-  width: 100%;
   background: rgba(28, 28, 28, 0.44);
   margin: 0 auto;
-  width: 720px;
 }
 
 .sofa__content {
@@ -169,7 +172,7 @@ button {
 }
 
 .sofa__right {
-  margin-left: 45px;
+  margin-left: 75px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -184,21 +187,85 @@ button {
 }
 
 .sofa-button-prev {
-  margin-left: 12px;
+  margin-left: -27px;
   margin-right: 27px;
 }
 
 .sofa__line {
+  margin-right: 40px;
   position: absolute;
   width: 60px;
   height: 30px;
-  right: 0;
   background: rgba(255, 255, 255, 0.38);
 }
 
 @media screen and (max-width: 768px) {
   .sofa {
     display: block;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .sofa__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sofa__left {
+    margin: 0 auto;
+  }
+  .sofa__right {
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sofa__title {
+    max-width: 269px;
+    font-size: 35px;
+  }
+  .sofa__btn {
+    font-size: 15px;
+    margin-left: 55px;
+  }
+  .sofa__img {
+    max-width: 100%;
+  }
+  .sofa__circle {
+    width: 350px;
+    height: 350px;
+    margin-top: 50px;
+  }
+  .sofa__chan {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .sofa__line {
+    right: auto;
+  }
+  .sofa-button-next {
+    margin-top: -22px;
+    margin-left: 219px;
+  }
+  .sofa-button-prev {
+    margin-left: 167px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .sofa__circle {
+    width: 230px;
+    height: 230px;
+  }
+  .sofa-button-prev {
+    margin-left: 106px;
+  }
+  .sofa-button-next {
+    margin-left: 159px;
   }
 }
 

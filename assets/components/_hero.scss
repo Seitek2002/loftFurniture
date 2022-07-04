@@ -3,7 +3,6 @@
     margin: 0 auto;
     background: url(../assets/img/hero/fon.png) center no-repeat;
     background-size: cover;
-    width: 100%;    
     max-width: 1140px;
     height: 450px;
     &__title {
@@ -42,13 +41,17 @@
     &-button-prev {
         left: 5px;
     }
-    &__line {
+    &-button-prev {
         position: absolute; 
         width: 30px;
         height: 30px;
         left: 0;
         right: 0;
         background: rgba(157, 157, 157, 0.28);
+        &:hover {
+            background: #000;
+            transition: 0.5s;
+        }
     }
     // &__line {
     //     width: 30px;
