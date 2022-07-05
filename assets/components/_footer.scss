@@ -1,0 +1,9 @@
+.footer {
+    font-family: "Roboto";
+    &__content {
+        display: flex;
+    }
+    &__title {
+        font-size: 200px;
+    }
+}
