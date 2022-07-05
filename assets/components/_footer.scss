@@ -15,6 +15,7 @@
     }
 
     &__title {
+        font-family: 'Roboto';
         font-weight: 500;
         font-size: 14px;
         color: $text-black;
@@ -41,43 +42,4 @@
     &__stock {
         color: $text-red;
     }
-
-    &__new {
-        margin-left: 30px;
-        color: $text-dark;
-    }
-
-    &__right {
-        margin-right: 128px;
-    }
-
-    &__logo {
-        text-align: right;
-        font-weight: 900;
-        font-size: 30px;
-        color: $text-black;
-        margin-top: 25px;
-        margin-bottom: 20px;
-    }
-
-    &__adress {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 126.69%;
-        text-align: right;
-        color: $text-dark;
-        margin-bottom: 10px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    &__contact {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 126.69%;
-        text-align: right;
-        color: $text-dark;
-        padding-top: 35px;
-    }
-
 }
