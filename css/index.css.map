@@ -6,7 +6,8 @@
         "../assets/helpers/_variables.scss",
         "../assets/helpers/_mixin.scss",
         "../assets/components/_base.scss",
-        "../assets/components/_classes.scss"
+        "../assets/components/_classes.scss",
+        "../assets/components/_hproduct.scss"
     ],
     "names": [],
     "file": "index.css"
